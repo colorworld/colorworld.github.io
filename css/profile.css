@@ -5,7 +5,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     /*border: 1px solid blue;*/
-    font-family: "Arial", "sans-serif", "微软雅黑", "宋体", "Tahoma";
+    font-family: "微软雅黑", "宋体", "Tahoma";
 }
 
 a:link, a:hover, a:active, a:visited {
@@ -15,15 +15,16 @@ a:link, a:hover, a:active, a:visited {
 
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "微软雅黑", "宋体", "Tahoma";
     font-weight: 400;
     margin: 0 0 30px 0;
 }
 
 body {
-    background-image: url(../images/1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../images/bgi/1.jpg);
+    /*background-repeat: no-repeat;*/
+    background-size: 100%;
+    background-color: #0f0f0f;
 }
 
 p {
@@ -31,7 +32,8 @@ p {
 }
 
 #main {
-    width: 760px;
+    max-width: 760px;
+    min-width: 750px;
     /*padding: 0 100px;*/
     margin: 100px auto;
     background-color: rgba(0, 0, 0, 0.85);
@@ -48,16 +50,43 @@ p {
 }
 
 .tab-wrap ul {
-    padding: 10px 100px 0 100px;
+    padding: 0 100px 0 100px;
     margin: 0;
 }
 
 .tab-wrap li {
     width: 110px;
     display: inline-block;
-    padding: 10px 10px 0 10px;
+    padding: 20px 10px 0 10px;
     margin: 0 2px;
     /*background-color: red;*/
+}
+
+.tab-wrap li:hover {
+    background-color: #17e7a4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+    color: red;
+
+}
+
+.menu-text:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.blue {
+    background-color: #17e7a4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.blue p {
+    /*margin: 2px;*/
+    color: white;
+    transition: 0.8s;
+
 }
 
 /*切换的四个图标*/
@@ -91,34 +120,96 @@ p {
 }
 
 .text h3 {
-    margin: 0;
+    /*margin: 0;*/
+    font-family: "微软雅黑", "宋体", "Tahoma";
 }
+
 /*第一个tab切换页面*/
 
-
-
-
-
-
-#liwei-footer{
-    height: 100px;
-    text-align: center;
-   padding-top: 30px;
-}
-
-.tab-content{
+.tab-content {
     display: none;
 }
 
-.active{
+.active {
     display: block;
 }
 
+.weixing-row {
+    padding-left: 30px;
+}
 
+.liwei-weixing {
+    background-color: #dedede;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+}
 
+/*第二个页面*/
+.page-top {
+    margin: 80px 0;
+}
 
+.page-top P {
+    text-indent: 2em;
+}
 
+#patents {
+    color: #17e7a4;
+}
 
+/*第四个页面*/
+/*.skills {*/
+/*display: flex;*/
+/*}*/
 
+/*.skills img {*/
+/*height: 150px;*/
+/*}*/
 
+/*.chart {*/
+/*width: 50%;*/
+/*}*/
+
+/*.jquery-li {*/
+/*height: 150px;*/
+
+/*}*/
+
+/*.js-img {*/
+/*width: 150px;*/
+/*height: 20px;*/
+/*}*/
+
+.tableCell h1 {
+    font-size: 40px;
+    margin-bottom: 120px;
+    color: #17e7a4;
+}
+
+.tag {
+    font-size: 18px;
+    background-color: #096254;
+    color: #b6ede4;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/*footer*/
+#liwei-footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+#liwei-footer a {
+    color: #17e7a4;
+}
 
