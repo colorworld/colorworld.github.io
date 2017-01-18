@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    /*border: 1px solid blue;*/
+    font-family: "Arial", "sans-serif", "微软雅黑", "宋体", "Tahoma";
+}
+
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+body {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+}
+
+#main {
+    width: 760px;
+    /*padding: 0 100px;*/
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.tab-menu img {
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.menu-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tab-wrap ul {
+    padding: 10px 100px 0 100px;
+    margin: 0;
+}
+
+.tab-wrap li {
+    width: 110px;
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    margin: 0 2px;
+    /*background-color: red;*/
+}
+
+/*切换的四个图标*/
+
+.tab-content {
+    padding: 0 100px;
+}
+
+.content-inner {
+    padding: 0 40px;
+}
+
+.tab-content figure {
+    margin: 25px 0 30px 0;
+}
+
+.tab-content h1 {
+    margin: 0 0 30px 0;
+}
+
+.tab-content p {
+    margin: 0 0 30px 0;
+}
+
+.liwei-number {
+    font-size: 100px;
+    color: #17e7a4;
+    font-weight: 400;
+    line-height: 90px;
+
+}
+
+.text h3 {
+    margin: 0;
+}
+/*第一个tab切换页面*/
+
+
+
+
+
+
+#liwei-footer{
+    height: 100px;
+    text-align: center;
+   padding-top: 30px;
+}
+
+.tab-content{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
